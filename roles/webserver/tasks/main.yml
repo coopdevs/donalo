@@ -6,6 +6,12 @@
     mode: 0644
 
 - include_role:
+    name: vendor/coopdevs.certbot_nginx
+  vars:
+    domain_name: "{{ inventory_hostname }}"
+    letsencrypt_email: "{{ certificate_authority_email }}"
+
+- include_role:
     name: vendor/jdauphant.nginx
   vars:
     nginx_configs:
