@@ -17,9 +17,10 @@
     nginx_configs:
       upstream:
         - upstream app_server { server localhost:8080 fail_timeout=0; }
-    nginx_remove_sites:
-      - donalo_https
     nginx_sites:
+      donalo_https:
+        template: donalo_https.conf.j2
+        server_name: "{{ inventory_hostname }}"
       donalo_http:
         template: donalo_http.conf.j2
         server_name: "{{ inventory_hostname }}"
