@@ -20,3 +20,5 @@ deploy_to: /var/www/donalo
 current_path: "{{ deploy_to }}/current"
 shared_path: "{{ deploy_to }}/shared"
 pids_path: "{{ shared_path }}/pids"
+
+git_version: master
