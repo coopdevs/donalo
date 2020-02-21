@@ -10,7 +10,7 @@
         ansistrano_deploy_to: "{{ deploy_to }}"
         ansistrano_deploy_via: git
         ansistrano_git_repo: https://github.com/coopdevs/sharetribe.git
-        ansistrano_git_branch: master
+        ansistrano_git_branch: "{{ git_version }}"
         ansistrano_keep_releases: 5
         ansistrano_shared_paths:
           - log
