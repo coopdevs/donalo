@@ -21,9 +21,9 @@
       rbenv:
         env: user
         version: v1.1.2
-        default_ruby: 2.6.2
+        default_ruby: "{{ ruby_version }}"
         rubies:
-          - version: 2.6.2
+          - version: "{{ ruby_version }}"
       rbenv_users:
         - "{{ app_user }}"
       default_gems_file: files/default-gems

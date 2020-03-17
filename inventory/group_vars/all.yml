@@ -3,7 +3,8 @@ ansible_python_interpreter: /usr/bin/python3
 
 app_user: "donalo"
 
-ruby_version: "{{ lookup('file', '../.ruby-version') }}"
+# yamllint disable-line rule:line-length
+ruby_version: "{{ lookup('url', 'https://raw.githubusercontent.com/coopdevs/sharetribe/master/.ruby-version') }}"
 
 hetzner_api_token: !vault |
   $ANSIBLE_VAULT;1.1;AES256
