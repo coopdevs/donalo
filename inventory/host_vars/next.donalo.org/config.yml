@@ -17,6 +17,9 @@ sys_admins:
   - name: circleci
     ssh_key: "../pub_keys/circleci.pub"
     state: present
+  - name: jorge
+    ssh_key: "../pub_keys/jorge.pub"
+    state: present
 
 servers:
   - name: "{{ inventory_hostname }}"
