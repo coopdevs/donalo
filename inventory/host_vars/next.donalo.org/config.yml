@@ -13,7 +13,7 @@ sys_admins:
     state: present
   - name: ferran
     ssh_key: "../pub_keys/ferran.pub"
-    state: present
+    state: absent
   - name: circleci
     ssh_key: "../pub_keys/circleci.pub"
     state: present
