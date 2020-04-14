@@ -31,5 +31,4 @@
     user: "{{ app_user }}"
     key: "{{ lookup('file', item.ssh_key) }}"
     state: "{{ item.state }}"
-  when: item.state == "present"
   with_items: "{{ sys_admins }}"
