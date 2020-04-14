@@ -11,9 +11,6 @@ sys_admins:
   - name: pau
     ssh_key: "../pub_keys/pau.pub"
     state: present
-  - name: ferran
-    ssh_key: "../pub_keys/ferran.pub"
-    state: absent
   - name: circleci
     ssh_key: "../pub_keys/circleci.pub"
     state: present
