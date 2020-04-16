@@ -32,8 +32,3 @@
     key: "{{ lookup('file', item.ssh_key) }}"
     state: "{{ item.state }}"
   with_items: "{{ sys_admins }}"
-
-- name: Remove Ferran's home directory
-  file:
-    path: /home/ferran
-    state: absent
