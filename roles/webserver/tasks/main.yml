@@ -6,14 +6,21 @@
     mode: 0644
 
 - include_role:
+    name: vendor/coopdevs.certbot_nginx
+  vars:
+    domain_name: "{{ inventory_hostname }}"
+    letsencrypt_email: "{{ certificate_authority_email }}"
+
+- include_role:
     name: vendor/jdauphant.nginx
   vars:
     nginx_configs:
       upstream:
         - upstream app_server { server localhost:8080 fail_timeout=0; }
-    nginx_remove_sites:
-      - donalo_https
     nginx_sites:
+      donalo_https:
+        template: donalo_https.conf.j2
+        server_name: "{{ inventory_hostname }}"
       donalo_http:
         template: donalo_http.conf.j2
         server_name: "{{ inventory_hostname }}"
