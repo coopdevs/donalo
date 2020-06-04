@@ -17,6 +17,27 @@
   args:
     chdir: "{{ current_path }}"
 
+# This is mainly meant for setting up a new server, as it won't have
+# a config/ENVIRONMENT.sphinx.conf file yet.
+- name: Check if Sphinx is configured
+  stat:
+    path: "{{ current_path }}/config/{{ rails_environment }}.sphinx.conf"
+  register: sphinx_config
+
+# TODO: this is being done every time, possible because is not in shared/ and symlinked?
+# Missing "shared directory" from https://freelancing-gods.com/thinking-sphinx/v4/deployment.html.
+- name: Generate the Sphinx configuration file
+  shell: bash -lc "bundle exec rake ts:configure"
+  args:
+    chdir: "{{ current_path }}"
+  when: not sphinx_config.stat.exists
+
+- name: Process Sphinx indexes
+  shell: bash -lc "bundle exec rake ts:index"
+  args:
+    chdir: "{{ current_path }}"
+  when: not sphinx_config.stat.exists
+
 - name: precompile assets
   shell: bash -lc "bundle exec rake assets:precompile"
   args:
@@ -35,3 +56,8 @@
     state: restarted
   become: yes
   become_user: root
+
+- name: restart sphinx
+  shell: bash -lc "bundle exec rake ts:restart"
+  args:
+    chdir: "{{ current_path }}"
