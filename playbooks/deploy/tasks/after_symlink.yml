@@ -24,8 +24,6 @@
     path: "{{ current_path }}/config/{{ rails_environment }}.sphinx.conf"
   register: sphinx_config
 
-# TODO: this is being done every time, possible because is not in shared/ and symlinked?
-# Missing "shared directory" from https://freelancing-gods.com/thinking-sphinx/v4/deployment.html.
 - name: Generate the Sphinx configuration file
   shell: bash -lc "bundle exec rake ts:configure"
   args:
