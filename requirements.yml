@@ -10,7 +10,6 @@
   version: 2.9.5
 - src: davidwittman.redis
   version: 1.2.7
-- src: devjatkin.sphinx
 - src: ansistrano.deploy
   version: 3.3.0
 - src: zzet.rbenv
