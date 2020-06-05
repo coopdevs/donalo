@@ -40,10 +40,16 @@ workflows:
   build_and_provision:
     jobs:
       - build
-      - provision:
+      - hold:
           type: approval
           requires:
             - build
+          filters:
+            branches:
+              only: master
+      - provision:
+          requires:
+            - hold
           filters:
             branches:
               only: master
