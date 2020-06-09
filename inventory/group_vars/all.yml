@@ -23,3 +23,5 @@ shared_path: "{{ deploy_to }}/shared"
 pids_path: "{{ shared_path }}/pids"
 
 git_version: master
+
+external_plan_service_in_use: true
