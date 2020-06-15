@@ -11,6 +11,14 @@ server {
 
     server_name {{ item.value.server_name }};
 
+    # Relies on /etc/nginx/conf.d/old_blog_redirects.conf to define the
+    # appropriate $new_uri for the given post id
+    location ~ post.php {
+      if ($new_uri) {
+        rewrite ^ $new_uri? permanent;
+      }
+    }
+
     location / {
         proxy_set_header  Host                $host;
         proxy_set_header  X-Real-IP           $remote_addr;

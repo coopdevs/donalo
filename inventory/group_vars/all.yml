@@ -25,3 +25,9 @@ pids_path: "{{ shared_path }}/pids"
 git_version: master
 
 external_plan_service_in_use: true
+
+old_blog_redirects:
+  - id: 287
+    new_url: https://blog.donalo.org/2019/11/07/3a-conferencia-internacional-sobre-el-rol-de-las-entidades-sociales-y-solidarias-en-la-economia-circular/
+  - id: 288
+    new_url: https://blog.donalo.org/2019/11/14/como-funciona-la-reutilizacion-de-ordenadores/
