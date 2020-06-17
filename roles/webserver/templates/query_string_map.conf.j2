@@ -1,0 +1,9 @@
+map $query_string $new_uri {
+  {% for post in old_blog_posts_redirects %}
+  ~*post={{ post.id }} {{ post.new_url }};
+  {% endfor %}
+
+  {% for tag in old_blog_tags_redirects %}
+  ~*tag={{ tag.name }} {{ tag.new_url }};
+  {% endfor %}
+}
