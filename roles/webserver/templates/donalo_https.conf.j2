@@ -19,6 +19,14 @@ server {
       }
     }
 
+    # Relies on /etc/nginx/conf.d/old_blog_redirects.conf to define the
+    # appropriate $new_uri for the given tag name
+    location ~ blog-tag.php {
+      if ($new_uri) {
+        rewrite ^ $new_uri? permanent;
+      }
+    }
+
     location / {
         proxy_set_header  Host                $host;
         proxy_set_header  X-Real-IP           $remote_addr;

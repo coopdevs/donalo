@@ -26,7 +26,7 @@ git_version: master
 
 external_plan_service_in_use: true
 
-old_blog_redirects:
+old_blog_posts_redirects:
   - id: 287
     new_url: https://blog.donalo.org/2019/11/07/3a-conferencia-internacional-sobre-el-rol-de-las-entidades-sociales-y-solidarias-en-la-economia-circular/
   - id: 288
@@ -85,3 +85,15 @@ old_blog_redirects:
     new_url: https://blog.donalo.org/2020/05/28/la-covid-19-acelera-el-proceso-hacia-una-sociedad-sin-despilfarro/
   - id: 317
     new_url: https://blog.donalo.org/2020/06/04/el-gobierno-aprueba-la-estrategia-espanola-de-economia-circular/
+
+old_blog_tags_redirects:
+  - name: reutilizaci%C3%B3n
+    new_url: https://blog.donalo.org/tag/reutilizacion/
+  - name: medio%20medio%20ambiente
+    new_url: https://blog.donalo.org/tag/medio-ambiente/
+  - name: donar%20ordenadores
+    new_url: https://blog.donalo.org/tag/donar-ordenadores/
+  - name: economia%20circular
+    new_url: https://blog.donalo.org/tag/economia-circular/
+  - name: procom%C3%BAn
+    new_url: https://blog.donalo.org/tag/procomun/
