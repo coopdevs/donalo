@@ -27,6 +27,11 @@ server {
       }
     }
 
+    # Redirects to the new blog but getting rid of the locale
+    location ~ "^/(\w{2})/blog" {
+      return 301 https://blog.donalo.org/;
+    }
+
     location / {
         proxy_set_header  Host                $host;
         proxy_set_header  X-Real-IP           $remote_addr;
