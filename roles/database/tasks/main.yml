@@ -1,4 +1,10 @@
 ---
+- name: Dump current database
+  mysql_db:
+    state: dump
+    name: "{{ hostvars['next.donalo.org']['database_name'] }}" # the old database name
+    target: "{{ dump_file_path }}"
+
 - include_role:
     name: vendor/geerlingguy.mysql
   vars:
@@ -14,3 +20,9 @@
         priv: "*.*:REQUIRESSL/{{ database_name }}.people:SELECT(id, uuid, created_at, updated_at, is_admin, locale, preferences, active_days_count, last_page_load_date, test_group_number, username, reset_password_sent_at, remember_created_at, sign_in_count, current_sign_in_at, last_sign_in_at, given_name, family_name, display_name, phone_number, description, image_updated_at)/{{ database_name }}.categories:SELECT/{{ database_name }}.comments:SELECT/{{ database_name }}.conversations:SELECT/{{ database_name }}.follower_relationships:SELECT/{{ database_name }}.listings:SELECT/{{ database_name }}.locations:SELECT/{{ database_name }}.messages:SELECT/{{ database_name }}.participations:SELECT/{{ database_name }}.shipping_addresses:SELECT/{{ database_name }}.stripe_payments:SELECT/{{ database_name }}.testimonials:SELECT/{{ database_name }}.transactions:SELECT/{{ database_name }}.transaction_processes:SELECT/{{ database_name }}.transaction_transitions:SELECT" # noqa 204
         password: "{{ database_metabase_password }}"
         host: "static.42.151.203.116.clients.your-server.de"
+
+- name: Restore to the new database
+  mysql_db:
+    name: "{{ database_name }}"
+    state: import
+    target: "{{ dump_file_path }}"
