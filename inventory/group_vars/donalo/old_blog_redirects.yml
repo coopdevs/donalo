@@ -1,5 +1,255 @@
 ---
 old_blog_posts_redirects:
+  - id: 159
+    new_url: https://blog.donalo.org/2017/04/07/donde-reciclar-residuos-electronicos-en-cataluna/
+  - id: 161
+    new_url: https://blog.donalo.org/2017/04/07/por-que-hacer-donaciones-a-instituciones-sin-animo-de-lucro/
+  - id: 162
+    new_url: https://blog.donalo.org/2017/05/07/que-es-la-economia-circular/
+  - id: 164
+    new_url: https://blog.donalo.org/2017/04/28/reutilizar-residuos-electronicos/
+  - id: 165
+    new_url: https://blog.donalo.org/2017/05/05/por-que-donar-ordenadores-usados-a-una-ong/
+  - id: 166
+    new_url: https://blog.donalo.org/2017/05/16/donde-puedes-tirar-residuos-informaticos/
+  - id: 167
+    new_url: https://blog.donalo.org/2017/05/17/donde-surgio-la-economia-circular/
+  - id: 168
+    new_url: https://blog.donalo.org/2019/05/24/ejemplo-de-donaciones-de-material-informatico-a-ong/
+  - id: 169
+    new_url: https://blog.donalo.org/2017/05/30/la-responsabilidad-social-empresarial-el-autentico-dialogo-con-los-stakeholders-y-el-greenwashing/
+  - id: 170
+    new_url: https://blog.donalo.org/2019/06/06/donar-ordenadores-a-traves-de-la-economia-circular-el-circuito-pangea/
+  - id: 171
+    new_url: https://blog.donalo.org/2017/06/07/donar-a-fundaciones-cuanto-desgrava/
+  - id: 172
+    new_url: https://blog.donalo.org/2017/06/15/ejemplos-de-responsabilidad-social-corporativa/
+  - id: 173
+    new_url: https://blog.donalo.org/2017/06/20/quien-se-beneficia-de-la-responsabilidad-social-corporativa/
+  - id: 174
+    new_url: https://blog.donalo.org/2017/06/27/como-afecta-la-contaminacion-por-residuos-solidos-al-medio-ambiente/
+  - id: 175
+    new_url: https://blog.donalo.org/2017/07/10/estandares-de-la-economia-circular/
+  - id: 176
+    new_url: https://blog.donalo.org/2017/07/12/acciones-de-responsabilidad-social-corporativa-como-reconocerlas/
+  - id: 177
+    new_url: https://blog.donalo.org/2017/07/19/los-mejores-ejemplos-de-economia-circular-en-2017/
+  - id: 178
+    new_url: https://blog.donalo.org/2017/07/28/como-funciona-la-reutilizacion-de-equipos-informaticos/
+  - id: 179
+    new_url: https://blog.donalo.org/2017/08/07/el-circuito-pangea-cuando-la-infraestructura-digital-se-gestiona-como-un-bien-comun/
+  - id: 180
+    new_url: https://blog.donalo.org/2017/08/10/las-cadenas-de-produccion-en-la-fabricacion-de-items-informaticos/
+  - id: 181
+    new_url: https://blog.donalo.org/2017/08/17/consumo-de-servicios-en-la-economia-circular-polemica-con-airbnb/
+  - id: 182
+    new_url: https://blog.donalo.org/2017/08/28/economia-circular-la-importancia-de-reutilizar-productos-y-materiales/
+  - id: 183
+    new_url: https://blog.donalo.org/2017/08/01/poligonos-industriales-que-funcionan-con-economia-circular/
+  - id: 184
+    new_url: https://blog.donalo.org/2017/08/01/entidades-sociales-que-promueven-la-reutilizacion-de-ordenadores/
+  - id: 185
+    new_url: https://blog.donalo.org/2017/09/13/que-pueden-hacer-las-empresas-con-sus-ordenadores-viejos/
+  - id: 186
+    new_url: https://blog.donalo.org/2017/09/19/proyectos-que-han-funcionado-gracias-a-la-donacion-de-ordenadores/
+  - id: 187
+    new_url: https://blog.donalo.org/2017/09/28/como-la-economia-circular-contribuye-a-generar-empleo/
+  - id: 188
+    new_url: https://blog.donalo.org/2017/10/04/como-la-economia-circular-contribuye-al-coste-cero-de-la-electricidad-en-alemania/
+  - id: 189
+    new_url: https://blog.donalo.org/2017/10/06/economia-circular-para-luchar-contra-el-cambio-climatico/
+  - id: 190
+    new_url: https://blog.donalo.org/2017/10/13/que-pasaria-si-dejaramos-de-reciclar/
+  - id: 191
+    new_url: https://blog.donalo.org/2017/10/20/semana-europea-de-prevencion-de-residuos-beneficios-ambientales-y-economicos-de-la-reutilizacion/
+  - id: 192
+    new_url: https://blog.donalo.org/2017/10/30/elinor-ostrom-y-la-teoria-del-procomun/
+  - id: 193
+    new_url: https://blog.donalo.org/2017/11/02/puntos-limpios-en-catalunya-y-economia-circular/
+  - id: 194
+    new_url: https://blog.donalo.org/2017/11/10/biodiversidad-economia-circular-y-adaptacion-al-cambio-climatico/
+  - id: 195
+    new_url: https://blog.donalo.org/2017/11/24/cuales-son-las-oportunidades-medioambientales-de-la-economia-circular/
+  - id: 196
+    new_url: https://blog.donalo.org/2017/12/01/economia-circular-un-ahorro-para-las-empresas/
+  - id: 197
+    new_url: https://blog.donalo.org/2017/12/13/semana-europea-prevencion-de-residuos-ejemplos-de-buenas-acciones-donalo-org/
+  - id: 198
+    new_url: https://blog.donalo.org/2017/12/15/como-hacer-economia-circular-a-partir-del-plastico/
+  - id: 199
+    new_url: https://blog.donalo.org/2017/12/20/que-es-el-sistema-de-deposito-devolucion-y-retorno-de-envases/
+  - id: 200
+    new_url: https://blog.donalo.org/2017/12/22/balance-acciones-donalo-org-2017/
+  - id: 201
+    new_url: https://blog.donalo.org/2018/01/10/residuos-electronicos-informe-e-waste-monitor-2017/
+  - id: 202
+    new_url: https://blog.donalo.org/2018/01/18/como-funciona-la-donacion-de-ordenadores-el-caso-de-abacus-cooperativa/
+  - id: 203
+    new_url: https://blog.donalo.org/2018/01/25/nuestro-mundo-es-solo-un-9-circular/
+  - id: 204
+    new_url: https://blog.donalo.org/2018/01/01/quien-apoya-la-economia-circular/
+  - id: 205
+    new_url: https://blog.donalo.org/2018/02/08/motivos-economicos-para-impulsar-una-economia-circular/
+  - id: 206
+    new_url: https://blog.donalo.org/2018/02/13/por-que-adherirse-a-un-programa-de-donacion-de-ordenadores/
+  - id: 207
+    new_url: https://blog.donalo.org/2018/02/21/la-economia-circular-una-economia-regenerativa-y-restaurativa/
+  - id: 208
+    new_url: https://blog.donalo.org/2018/03/02/recomendaciones-a-empresas-para-reducir-residuos-electronicos/
+  - id: 209
+    new_url: https://blog.donalo.org/2018/03/07/5-razones-para-apostar-por-la-economia-circular/
+  - id: 210
+    new_url: https://blog.donalo.org/2018/03/14/economia-circular-un-modelo-a-favor-del-medio-ambiente/
+  - id: 211
+    new_url: https://blog.donalo.org/2018/03/23/donalo-org-finalista-del-premio-europeo-de-la-prevencion-de-residuos/
+  - id: 212
+    new_url: https://blog.donalo.org/2018/03/29/el-futuro-sera-circular-o-no-sera/
+  - id: 213
+    new_url: https://blog.donalo.org/2018/04/05/reutilizar-ordenadores-es-mucho-mas-eficiente-que-reciclarlos/
+  - id: 214
+    new_url: https://blog.donalo.org/2018/04/10/acabar-con-la-obsolescencia-programada-mision-imposible/
+  - id: 215
+    new_url: https://blog.donalo.org/2018/04/19/una-segunda-vida-para-los-aparatos-electronicos/
+  - id: 216
+    new_url: https://blog.donalo.org/2018/04/25/la-ue-exporta-su-basura-electronica-a-africa/
+  - id: 217
+    new_url: https://blog.donalo.org/2018/05/02/economia-circular-un-ahorro-para-las-empresas-y-un-alivio-para-el-planeta/
+  - id: 218
+    new_url: https://blog.donalo.org/2018/05/08/a-quien-puedo-donar-mi-ordenador-obsoleto/
+  - id: 219
+    new_url: https://blog.donalo.org/2018/05/15/la-fundacion-real-dreams-finalista-en-los-premios-ewwr-awards-2017/
+  - id: 220
+    new_url: https://blog.donalo.org/2018/05/22/como-deshacerte-de-los-equipos-informaticos-antiguos-de-tu-empresa/
+  - id: 221
+    new_url: https://blog.donalo.org/2018/05/28/luz-verde-al-nuevo-paquete-de-economia-circular-de-la-union-europea/
+  - id: 222
+    new_url: https://blog.donalo.org/2018/06/06/la-directiva-de-la-ue-sobre-economia-circular-no-alcanza-los-objetivos-de-desperdicio-cero/
+  - id: 223
+    new_url: https://blog.donalo.org/2018/06/13/economia-circular-del-desecho-a-la-reutilizacion-mejor-negocio-mejor-mundo/
+  - id: 224
+    new_url: https://blog.donalo.org/2018/06/20/economia-circular-y-rse-caminan-de-la-mano/
+  - id: 225
+    new_url: https://blog.donalo.org/2018/06/28/como-insertar-a-tu-empresa-en-la-economia-circular/
+  - id: 226
+    new_url: https://blog.donalo.org/2018/07/04/fundraising-y-captacion-de-productos-la-economia-colaborativa-entre-ong-y-empresas/
+  - id: 227
+    new_url: https://blog.donalo.org/2018/07/12/claves-para-aprovechar-las-oportunidades-de-negocio-de-la-economia-circular/
+  - id: 228
+    new_url: https://blog.donalo.org/2019/07/19/la-economia-circular-y-sus-escuelas-de-pensamiento/
+  - id: 229
+    new_url: https://blog.donalo.org/2018/07/25/como-las-ong-pueden-captar-recursos-de-las-empresas/
+  - id: 230
+    new_url: https://blog.donalo.org/2018/07/01/diez-cosas-que-debes-saber-a-la-hora-de-deshacerte-de-un-aparato-electronico/
+  - id: 231
+    new_url: https://blog.donalo.org/2018/08/21/casos-de-negocios-exitosos-en-economia-circular/
+  - id: 232
+    new_url: https://blog.donalo.org/2018/08/21/que-implica-una-economia-circular/
+  - id: 233
+    new_url: https://blog.donalo.org/2018/09/07/el-futuro-energetico-de-europa-y-cambio-climatico/
+  - id: 234
+    new_url: https://blog.donalo.org/2018/09/14/economia-circular-y-verde-en-el-mundo-local-como-pasar-a-la-accion-y-herramientas-para-los-entes-locales/
+  - id: 235
+    new_url: https://blog.donalo.org/2018/09/20/colaboraciones-entre-ong-y-empresas-que-cambian-la-sociedad/
+  - id: 236
+    new_url: https://blog.donalo.org/2018/10/03/la-moda-circular-de-las-empresas-pero-sin-economia-circular/
+  - id: 237
+    new_url: https://blog.donalo.org/2018/10/10/el-agua-en-la-economia-circular-2/
+  - id: 238
+    new_url: https://blog.donalo.org/2018/10/19/que-clase-de-empleo-generara-una-economia-circular/
+  - id: 239
+    new_url: https://blog.donalo.org/2018/10/26/el-agua-en-la-economia-circular/
+  - id: 240
+    new_url: https://blog.donalo.org/2018/11/12/3-razones-para-hacerse-con-un-ordenador-reutilizado/
+  - id: 241
+    new_url: https://blog.donalo.org/2018/11/13/sabias-que-el-90-de-los-materiales-de-un-ordenador-son-reutilizables/
+  - id: 242
+    new_url: https://blog.donalo.org/2018/11/22/pautas-para-reducir-la-basura-electronica/
+  - id: 243
+    new_url: https://blog.donalo.org/2018/11/27/el-impacto-de-la-basura-electronica-es-un-enorme-problema-ambiental/
+  - id: 244
+    new_url: https://blog.donalo.org/2018/12/14/unimpulsoredondo-iva-cero-para-la-reutilizacion-de-residuos/
+  - id: 245
+    new_url: https://blog.donalo.org/2019/12/14/ciudad-y-economia-circular-la-simbiosis-industrial/
+  - id: 246
+    new_url: https://blog.donalo.org/2018/12/20/consejos-para-hacer-una-donacion-responsable-en-navidad/
+  - id: 247
+    new_url: https://blog.donalo.org/2018/12/28/beneficios-fiscales-para-empresas-que-donan-a-una-ong/
+  - id: 248
+    new_url: https://blog.donalo.org/2019/01/09/retos-de-ecodiseno-y-economia-circular-en-la-era-actual/
+  - id: 249
+    new_url: https://blog.donalo.org/2019/01/15/premio-catalunya-de-ecodiseno-para-el-ano-2019/
+  - id: 250
+    new_url: https://blog.donalo.org/2019/01/22/no-producir-residuos-la-tendencia-que-va-mas-alla-del-simple-reciclaje/
+  - id: 251
+    new_url: https://blog.donalo.org/2019/01/30/donalo-org-participa-en-el-webinar-internacional-sobre-la-experiencia-de-reutilizacion-de-aparatos-electronicos-en-barcelona/
+  - id: 252
+    new_url: https://blog.donalo.org/2019/02/05/colaboraciones-de-ong-y-empresas-que-transforman-la-sociedad/
+  - id: 253
+    new_url: https://blog.donalo.org/2019/02/12/las-tic-claves-para-el-impulso-de-la-economia-circular/
+  - id: 254
+    new_url: https://blog.donalo.org/2019/02/18/la-nueva-gestion-de-la-energia-viene-a-revolucionar-el-empleo/
+  - id: 255
+    new_url: https://blog.donalo.org/2019/02/27/las-ciudades-caminan-hacia-el-desperdiciocero/
+  - id: 256
+    new_url: https://blog.donalo.org/2019/03/06/el-mal-uso-del-plastico-agrava-la-crisi-ambiental-planetaria/
+  - id: 257
+    new_url: https://blog.donalo.org/2019/03/14/ejemplos-de-empuje-de-la-economia-circular/
+  - id: 258
+    new_url: https://blog.donalo.org/2019/03/20/que-ganan-las-ong-con-la-reutilizacion-de-ordenadores/
+  - id: 260
+    new_url: https://blog.donalo.org/2019/04/12/el-ecodiseno-un-factor-clave-en-una-economia-circular/
+  - id: 261
+    new_url: https://blog.donalo.org/2019/04/29/wallapop-un-ejemplo-de-economia-circular-y-del-marketing-de-las-4es/
+  - id: 262
+    new_url: https://blog.donalo.org/2019/04/30/por-que-colaboran-empresas-y-ong/
+  - id: 263
+    new_url: https://blog.donalo.org/2019/05/15/por-que-las-ong-deberian-acogerse-a-donaciones-de-ordenadores-con-calidad-certificada-y-garantia/
+  - id: 264
+    new_url: https://blog.donalo.org/2019/05/17/diferencias-entre-entidades-que-promueven-donaciones-de-ordenadores-reutilizados-versus-reacondicionados/
+  - id: 265
+    new_url: https://blog.donalo.org/2019/05/23/como-funciona-la-cultura-de-la-economia-circular-en-la-donacion-de-ordenadores/
+  - id: 266
+    new_url: https://blog.donalo.org/2019/06/03/que-es-el-circuito-ereuse/
+  - id: 267
+    new_url: https://blog.donalo.org/2019/06/06/haciendo-recircular-los-ordenadores/
+  - id: 268
+    new_url: https://blog.donalo.org/2019/06/14/como-avanza-la-economia-circular-en-espana-y-en-europa/
+  - id: 269
+    new_url: https://blog.donalo.org/2019/06/19/cataluna-hacia-el-residuo-zero-situacion-actual/
+  - id: 270
+    new_url: https://blog.donalo.org/2019/06/28/que-tipo-de-materiales-pueden-recibir-las-ong-en-donalo-org/
+  - id: 271
+    new_url: https://blog.donalo.org/2019/07/04/bolsas-de-plastico-situacion-dia-internacional-libre-de-plastico/
+  - id: 272
+    new_url: https://blog.donalo.org/2019/07/12/economia-circular-que-favorece-la-inclusion-digital/
+  - id: 273
+    new_url: https://blog.donalo.org/2019/07/17/reciclar-cuando-toca-para-poner-freno-a-la-basura-electronica/
+  - id: 274
+    new_url: https://blog.donalo.org/2019/07/26/formas-para-descartar-los-productos-desechables/
+  - id: 275
+    new_url: https://blog.donalo.org/2019/08/20/por-que-donar-los-ordenadores-obsoletos-de-tu-empresa/
+  - id: 276
+    new_url: https://blog.donalo.org/2019/08/20/circuitos-de-ong-que-promueven-la-donacion-de-ordenadores-de-empresas/
+  - id: 277
+    new_url: https://blog.donalo.org/2019/08/20/como-tu-empresa-puede-fomentar-la-economia-circular-con-la-donacion-de-ordenadores/
+  - id: 278
+    new_url: https://blog.donalo.org/2019/08/30/ong-animan-al-nuevo-gobierno-a-apostar-por-el-sistema-de-deposito-de-envases/
+  - id: 279
+    new_url: https://blog.donalo.org/2019/09/05/como-hacer-una-donacion-de-ordenadores-a-una-ong/
+  - id: 280
+    new_url: https://blog.donalo.org/2019/09/12/crisis-mundial-por-la-basura-solo-el-16-de-los-desechos-son-reciclados/
+  - id: 281
+    new_url: https://blog.donalo.org/2019/09/17/movilizacion-mundial-por-el-clima-27s/
+  - id: 282
+    new_url: https://blog.donalo.org/2019/09/30/la-movilizacion-de-la-huelga-por-el-clima-termina-con-multitudinarias-manifestaciones-en-todo-el-mundo/
+  - id: 283
+    new_url: https://blog.donalo.org/2019/10/11/economia-circular-innovacion-para-un-modelo-de-produccion-sostenible/
+  - id: 284
+    new_url: https://blog.donalo.org/2019/10/17/ventajas-y-beneficios-economicos-de-la-economia-circular/
+  - id: 285
+    new_url: https://blog.donalo.org/2019/10/25/empieza-la-tecnofesc-2019-sobre-la-soberania-tecnologica-informatica/
+  - id: 286
+    new_url: https://blog.donalo.org/2019/10/01/nace-el-proyecto-circula-cat-para-alargar-la-vida-util-de-los-dispositivos-electronicos/
   - id: 287
     new_url: https://blog.donalo.org/2019/11/07/3a-conferencia-internacional-sobre-el-rol-de-las-entidades-sociales-y-solidarias-en-la-economia-circular/
   - id: 288
@@ -58,6 +308,8 @@ old_blog_posts_redirects:
     new_url: https://blog.donalo.org/2020/05/28/la-covid-19-acelera-el-proceso-hacia-una-sociedad-sin-despilfarro/
   - id: 317
     new_url: https://blog.donalo.org/2020/06/04/el-gobierno-aprueba-la-estrategia-espanola-de-economia-circular/
+  - id: 318
+    new_url: https://blog.donalo.org/2020/06/11/catalunya-destinara-15-millones-en-proyectos-de-economia-circular/
 
 old_blog_tags_redirects:
   - name: reutilizaci%C3%B3n
