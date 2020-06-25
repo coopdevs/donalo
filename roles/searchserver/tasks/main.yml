@@ -1,6 +1,4 @@
 ---
-- include_role:
-    name: vendor/devjatkin.sphinx
-  vars:
-    sphinx_use_ext_config: False
-    sphinx_test: True
+- name: Install Sphinx package
+  apt:
+    name: sphinxsearch

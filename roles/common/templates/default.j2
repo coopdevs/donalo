@@ -16,7 +16,7 @@ smtp_email_user_name={{ smtp_username }}
 smtp_email_password={{ smtp_password }}
 smtp_email_auth={{ smtp_auth }}
 smtp_email_domain={{ inventory_hostname }}
-smtp_email_port=25
+smtp_email_port={{ smtp_port }}
 
 redis_host=localhost
 redis_port=6379
@@ -28,3 +28,9 @@ domain={{ inventory_hostname }}
 google_maps_key={{ google_maps_key }}
 
 app_encryption_key={{ app_encryption_key }}
+
+external_plan_service_in_use={{ external_plan_service_in_use }}
+
+use_airbrake={{ use_airbrake }}
+airbrake_project_id={{ airbrake_project_id }}
+airbrake_project_key={{ airbrake_project_key }}

@@ -19,5 +19,7 @@
           - public/assets
           - vendor/bundle
           - .bundle
+          - db/sphinx
+          - tmp
         # yamllint disable-line rule:line-length
         ansistrano_after_symlink_tasks_file: "{{ playbook_dir }}/deploy/tasks/after_symlink.yml"

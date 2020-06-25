@@ -11,6 +11,11 @@
     domain_name: "{{ inventory_hostname }}"
     letsencrypt_email: "{{ certificate_authority_email }}"
 
+- name: Write old blog redirects map
+  template:
+    src: query_string_map.conf.j2
+    dest: /etc/nginx/conf.d/old_blog_redirects.conf
+
 - include_role:
     name: vendor/jdauphant.nginx
   vars:
