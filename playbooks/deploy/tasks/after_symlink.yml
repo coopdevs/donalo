@@ -17,6 +17,11 @@
   args:
     chdir: "{{ current_path }}"
 
+- name: override translations
+  shell: bash -lc "bundle exec rake donalo:override_translations"
+  args:
+    chdir: "{{ current_path }}"
+
 # This is mainly meant for setting up a new server, as it won't have
 # a config/ENVIRONMENT.sphinx.conf file yet.
 - name: Check if Sphinx is configured
