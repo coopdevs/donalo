@@ -2,7 +2,7 @@
 - name: Dump current database
   mysql_db:
     state: dump
-    name: "{{ hostvars['next.donalo.org']['database_name'] }}" # the old database name
+    name: "{{ old_database }}"
     target: "{{ dump_file_path }}"
 
 - include_role:
