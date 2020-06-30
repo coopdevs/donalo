@@ -9,9 +9,9 @@ What follows are the steps that need to be performed to turn the current next.do
 
 #### 1. Change DNS record
 
-First of all, for the provisioning to work and specifically the certificate, the DNS record `donalo.org` needs to point to 78.47.203.39. This needs to be asked to the DNS provider, Nexica.  This will cause downtime for the duration of the migration.
+First of all, for the provisioning to work and specifically the certificate, the DNS record `donalo.org` needs to point to 78.47.203.39. This needs to be asked to the DNS provider, Nexica. This will cause downtime for the duration of the migration.
 
-Once the DNS change is propagated, move on the next steps.
+Once the DNS change is propagated, move on to the next steps.
 
 #### 2. Provision
 
