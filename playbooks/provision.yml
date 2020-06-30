@@ -33,3 +33,5 @@
       become: yes
       become_user: "{{ app_user }}"
       tags: nvm
+    - role: backups
+      tags: backups

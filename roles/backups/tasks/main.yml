@@ -1,0 +1,8 @@
+---
+- include_role:
+    name: coopdevs.backups_role
+    tasks_from: main.yml
+  vars:
+    backups_role_script_prepare_template: "db_and_filesystem_backup.sh.j2"
+    backups_role_db_name: "{{ database_name }}"
+    backups_role_assets_path: "{{ current_path }}/public"
