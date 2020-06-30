@@ -19,7 +19,7 @@ Once the DNS change is propagated, move on to the next steps.
 pyenv exec ansible-playbook playbooks/provision.yml --limit=production
 ```
 
-This will create a new database named `donalo` while keeping the existing `donalo_staging`. It will also change `RAILS_ENV` to `production`. However, the app won't switch to use these two until we restart Unicorn and Delayed Job.
+This will create a new database named `donalo_production` while keeping the existing `donalo_staging` and create a `/tmp/dump.sql.gz`. It will also change `RAILS_ENV` to `production`. However, the app won't switch to use these two until we restart Unicorn and Delayed Job.
 
 The nginx site `donalo_https` will change its certificate and `server_name` to point to donalo.org failing to serve requests to `next.donalo.org`.
 

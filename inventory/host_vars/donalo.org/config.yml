@@ -29,7 +29,7 @@ servers:
 certificate_authority_email: "info@coopdevs.org"
 
 database_user: donalo
-database_name: donalo
+database_name: donalo_production
 database_password: !vault |
   $ANSIBLE_VAULT;1.1;AES256
   62623765303466386665396339353961636338656335343966346661366366626138303162663639
