@@ -4,6 +4,10 @@ donalo.local
 [next]
 next.donalo.org ansible_host=78.47.203.39
 
+[production]
+donalo.org ansible_host=78.47.203.39
+
 [donalo:children]
 next
 dev
+production

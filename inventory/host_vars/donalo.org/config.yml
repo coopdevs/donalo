@@ -1,24 +1,35 @@
 ---
-rails_environment: development
-
-development_user: "{{ lookup('env', 'USER') }}"
+rails_environment: production
 
 sys_admins:
-  - name: donalo
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: enrico
+    ssh_key: "../pub_keys/enrico.pub"
     state: present
-  - name: "{{ development_user }}"
-    ssh_key: "~/.ssh/id_rsa.pub"
+  - name: daniel
+    ssh_key: "../pub_keys/dani.pub"
+    state: present
+  - name: pau
+    ssh_key: "../pub_keys/pau.pub"
+    state: present
+  - name: circleci
+    ssh_key: "../pub_keys/circleci.pub"
+    state: present
+  - name: jorge
+    ssh_key: "../pub_keys/jorge.pub"
     state: present
 
-database_metabase_user: metabase
-database_metabase_password: metabase
+servers:
+  - name: "{{ inventory_hostname }}"
+    server_type: cx21
+    image: ubuntu-18.04
+    location: nbg1
+    state: present
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"
 
 database_user: donalo
-database_name: donalo_development
+database_name: donalo_production
 database_password: !vault |
   $ANSIBLE_VAULT;1.1;AES256
   62623765303466386665396339353961636338656335343966346661366366626138303162663639
@@ -96,5 +107,5 @@ airbrake_project_key: !vault |
   36396231303361633335303162373663323266363537613561313637373037633638363863613837
   3034643934616366366439613566313465326365306665363432
 
-old_database: donalo_development
+old_database: "{{ hostvars['next.donalo.org']['database_name'] }}"
 dump_file_path: /tmp/dump.sql.gz
