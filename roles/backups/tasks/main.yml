@@ -5,4 +5,4 @@
   vars:
     backups_role_script_prepare_template: "db_and_filesystem_backup.sh.j2"
     backups_role_db_name: "{{ database_name }}"
-    backups_role_assets_paths: "{{ current_path }}/public"
+    backups_role_assets_paths: ["{{ backups_role_tmp_path }}/backup.tar.gz"]
