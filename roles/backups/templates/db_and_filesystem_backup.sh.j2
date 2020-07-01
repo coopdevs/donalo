@@ -6,4 +6,4 @@ run mysqldump --user donalo -p{{ database_password }} --databases {{ backups_rol
 
 log "Compress assets"
 
-run sudo tar -czvf {{ backups_role_tmp_path }}/assets.tar.gz {{ backups_role_assets_path }}
+run tar -czvf {{ backups_role_tmp_path }}/assets.tar.gz {{ backups_role_assets_paths|join(' ') }}
