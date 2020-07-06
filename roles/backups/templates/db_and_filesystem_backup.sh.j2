@@ -7,5 +7,5 @@ run mysqldump --user donalo -p{{ database_password }} --databases {{ backups_rol
 log "Compress assets and DB dump"
 
 run tar -czvf {{ backups_role_tmp_path }}/backup.tar.gz \
-  {{ deploy_to }}/public \
+  {{ current_path }}/public \
   {{ backups_role_tmp_path }}/pg_dump_{{ backups_role_db_name }}.sql
