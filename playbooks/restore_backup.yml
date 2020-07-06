@@ -1,0 +1,8 @@
+---
+- name: Restore_backup
+  hosts: donalo
+  connection: local
+  tasks:
+    - import_role:
+        name: coopdevs.backups_role
+        tasks_from: restore-to-controller.yml

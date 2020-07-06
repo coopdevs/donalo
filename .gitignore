@@ -6,3 +6,5 @@ vendor/
 
 # Ansible Vault Password file
 .vault_pass
+
+backup-restore/
