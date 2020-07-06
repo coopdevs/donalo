@@ -16,3 +16,5 @@
   version: 3.4.7
 - src: stephdewit.nvm
   version: v3.2.0
+- src: coopdevs.backups_role
+  version: v1.2.6

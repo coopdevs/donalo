@@ -1,0 +1,11 @@
+{# This template is included by cron-main.sh.j2 #}
+
+log "Create DB dump"
+
+run mysqldump --user donalo -p{{ database_password }} --databases {{ backups_role_db_name }} > {{ backups_role_tmp_path }}/pg_dump_{{ backups_role_db_name }}.sql
+
+log "Compress assets and DB dump"
+
+run tar -czvf {{ backups_role_tmp_path }}/backup.tar.gz \
+  {{ deploy_to }}/public \
+  {{ backups_role_tmp_path }}/pg_dump_{{ backups_role_db_name }}.sql
