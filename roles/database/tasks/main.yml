@@ -10,3 +10,11 @@
       - name: "{{ database_user }}"
         priv: "{{ database_name }}.*:ALL"
         password: "{{ database_password }}"
+
+- name: Create database user and privileges for Metabase
+  mysql_user:
+    name: "{{ database_metabase_user }}"
+    priv: "{{ item }}"
+    password: "{{ database_metabase_password }}"
+    host: "static.42.151.203.116.clients.your-server.de"
+  loop: "{{ database_metabase_grants }}"
