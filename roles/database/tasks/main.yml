@@ -1,11 +1,4 @@
 ---
-- name: Dump current database
-  mysql_db:
-    state: dump
-    name: "{{ old_database }}"
-    target: "{{ dump_file_path }}"
-  when: old_database is defined
-
 - include_role:
     name: vendor/geerlingguy.mysql
   vars:
@@ -17,10 +10,3 @@
       - name: "{{ database_user }}"
         priv: "{{ database_name }}.*:ALL"
         password: "{{ database_password }}"
-
-- name: Restore to the new database
-  mysql_db:
-    name: "{{ database_name }}"
-    state: import
-    target: "{{ dump_file_path }}"
-  when: old_database is defined
