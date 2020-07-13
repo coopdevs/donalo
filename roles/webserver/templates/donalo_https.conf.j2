@@ -11,6 +11,8 @@ server {
 
     server_name {{ item.value.server_name }};
 
+    client_max_body_size 15m;
+
     # Relies on /etc/nginx/conf.d/old_blog_redirects.conf to define the
     # appropriate $new_uri for the given post id
     location ~ post.php {
