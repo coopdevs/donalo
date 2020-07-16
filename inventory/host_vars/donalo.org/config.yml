@@ -150,7 +150,6 @@ backups_role_restic_repo_password: !vault |
 
 database_metabase_grants:
   - "*.*:REQUIRESSL"
-  - "{{ database_name }}.masked_people:SELECT"
   - "{{ database_name }}.categories:SELECT"
   - "{{ database_name }}.comments:SELECT"
   - "{{ database_name }}.conversations:SELECT"
