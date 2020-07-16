@@ -211,6 +211,7 @@ database_metabase_grants:
   - "{{ database_name }}.paypal_process_tokens:SELECT"
   - "{{ database_name }}.paypal_refunds:SELECT"
   - "{{ database_name }}.paypal_tokens:SELECT"
+  - "{{ database_name }}.masked_people:SELECT"
   - "{{ database_name }}.schema_migrations:SELECT"
   - "{{ database_name }}.sessions:SELECT"
   - "{{ database_name }}.shipping_addresses:SELECT"
