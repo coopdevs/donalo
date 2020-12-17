@@ -27,3 +27,4 @@ git_version: master
 external_plan_service_in_use: true
 
 max_image_filesize: 10000000 # bytes
+user_asset_host: "https://{{ inventory_hostname }}"
