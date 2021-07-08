@@ -17,6 +17,9 @@ sys_admins:
   - name: jorge
     ssh_key: "../pub_keys/jorge.pub"
     state: present
+  - name: sergi
+    ssh_key: "../pub_keys/sergi.pub"
+    state: present
 
 servers:
   - name: "{{ inventory_hostname }}"
